@@ -1,6 +1,4 @@
-// google font //
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 *,
 ::after,
 ::before {
@@ -11,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  //   padding: 1rem;
   background: linear-gradient(to right, #e5af28, #e53e28);
 }
 
@@ -22,20 +19,18 @@ body {
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-
-  button {
-    cursor: pointer;
-    border: 1px solid rgba(228, 243, 16, 0.2);
-    border-collapse: collapse;
-    background-color: rgba(221, 153, 43, 0.3);
-    transition: all 0.2s;
-    outline: none;
-    font-size: 1rem;
-  }
-
-  button:hover {
-    background-color: rgba(174, 221, 43, 0.2);
-  }
+}
+.calculator-grid button {
+  cursor: pointer;
+  border: 1px solid rgba(228, 243, 16, 0.2);
+  border-collapse: collapse;
+  background-color: rgba(221, 153, 43, 0.3);
+  transition: all 0.2s;
+  outline: none;
+  font-size: 1rem;
+}
+.calculator-grid button:hover {
+  background-color: rgba(174, 221, 43, 0.2);
 }
 
 .output-container {
@@ -63,4 +58,4 @@ body {
 
 .current-operand {
   font-size: 1.5rem;
-}
+}/*# sourceMappingURL=style.css.map */
